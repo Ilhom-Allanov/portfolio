@@ -23,7 +23,7 @@ class Portfolio3(models.Model):
 class Contact(models.Model):
     name = models.CharField()
     email = models.CharField()
-    subject = models.CharField()
+    phone = models.CharField()
     message = models.CharField()
 
     def __str__(self):
